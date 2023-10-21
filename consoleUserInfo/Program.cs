@@ -8,3 +8,5 @@ string name = "Cristoff";
 bool moreThenFiveBool = moreThanFiveClass.moreThanFive(name);
 Console.WriteLine("The name: " + name + " has more than 5 characters: " + moreThenFiveBool);
 Console.WriteLine("The name: " + name + " is an awesome name");
+Console.WriteLine("A little change in the program");
+
