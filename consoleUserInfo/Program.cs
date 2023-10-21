@@ -7,5 +7,4 @@ MoreThanFive moreThanFiveClass = new MoreThanFive();
 string name = "Cristoff";
 bool moreThenFiveBool = moreThanFiveClass.moreThanFive(name);
 Console.WriteLine("The name: " + name + " has more than 5 characters: " + moreThenFiveBool);
-Console.WriteLine("The name: " + name + " is a cool name");
-Console.WriteLine("The name: " + name + " is a smart name");
+Console.WriteLine("The name: " + name + " is an awesome name");
