@@ -12,10 +12,5 @@ int age = 27;
 bool moreThenFiveBool = moreThanFiveClass.moreThanFive(name);
 bool olderThanTwenty = agevalidation.aboveTwenty(age);
 Console.WriteLine("The name: " + name + " has more than 5 characters: " + moreThenFiveBool);
-<<<<<<< HEAD
 Console.WriteLine("The name: " + name + " is an awesome name");
-Console.WriteLine("A little change in the program");
-
-=======
 Console.WriteLine(name + " is above the age of 20: " + olderThanTwenty);
->>>>>>> refs/remotes/origin/master
