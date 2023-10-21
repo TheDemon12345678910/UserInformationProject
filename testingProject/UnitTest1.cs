@@ -6,11 +6,13 @@ public class Tests
 {
     //Setting up the class I want to test methods from
     private MoreThanFive _moreThanFive;
+    private Agevalidation _agevalidation;
     
     [SetUp]
     public void Setup()
     {
         _moreThanFive = new MoreThanFive();
+        _agevalidation = new Agevalidation();
     }
 
     [Test]
@@ -42,6 +44,20 @@ public class Tests
         //Assert
         Assert.AreEqual(expected, result);
     }
-    
+
+    [TestCase(29,true)]
+    [TestCase(30,true)]
+    [TestCase(19,false)]
+    [TestCase(3,false)]
+    public void TestIfAboveTwenty(int age, bool expected)
+    {
+        //Arrange
+        
+        //Act
+        var result = _agevalidation.aboveTwenty(age);
+        
+        //Assert
+        Assert.AreEqual(expected, result);
+    }
     
 }
